@@ -96,7 +96,7 @@ Hook(['fs'], (exported, name, baseDir) => {
 
 // Ensure that the loader has acknowledged all the modules 
 // before we allow execution to continue
-await waitForAllMessagesAcknowledged()
+await waitForAllMessagesAcknowledged
 ```
 `my-app.mjs`
 ```js
